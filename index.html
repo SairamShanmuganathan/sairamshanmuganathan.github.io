@@ -1,187 +1,256 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Sairam Shanmuganathan</title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<script src="js/jquery.min.js"></script>
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
-	</head>
-	<body>
-		<div class="bg">
-			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
-					<div class="top-header">
-						<div class="container">
-						<div class="logo">
-							<a href="#"><font color="white">Sairam Shanmuganathan</font></a>
-						</div>
-						 <nav class="top-nav">
-							<ul class="top-nav">
-								<li><a href="#home" class="scroll">Home</a></li>
-								<li><a href="#portfolio" class="scroll">Projects I do</a></li>
-                                <li><a href="https://sairamshanmuganathan.wordpress.com">My Blog</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
-<li><a href="resume.pdf">My Resume</a></li>
-                                							</ul>
-							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
-						</nav>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			<div class="banner wow fadeIn" data-wow-delay="0.5s">
-				<div class="container">
-					<div class="banner-info text-center">
-						<h1>Hey I'm Sairam</h1><br/>
-						<span> </span>
-						<p>I'm Studying in Dr.Mahalingam College Of Engineering And Technology,Pollachi <br /></p>
-                        <img src="images/sai.png" width="200" height="200"/>
-					</div>
-				</div>
-			</div>
-		</div>
-			<div class="clearfix"> </div>
-					<div id="portfolio" class="portfolio-works">
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p1.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Full Stack Web Developer</h4>
-								<p>I am a Full stack website developer both Front end and Back end!!,Learnt HTML,CSS,php,MySQL,and a beginner of JavaScript and mongoDB</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p2.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Android App Developer</h4>
-								<p>I also do android apps and a beginner in it has uploaded my first app in playstore named SGS 1.0 , soon to make many wonders!!</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p3.png" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Software Developer</h4>
-								<p>I do simple softwares using java and JDBC, soon to learn C# and do much more softwares in it!!</p>
-							</div>
-						</div>
-						
-						<div class="clearfix"> </div>
-					</div>
-			<div id="team" class="team-members">
-					<div class="wrap"> 
-						<div class="tm-head">
-							<h3>designed by</h3>
-							
-						</div>
-						<div class="tm-head-grids">
-							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
-								<img src="" alt="">
-								<h4></h4>
-								<h5></h5>
-								<ul class="top-social-icons">
-									
-								</ul>
-							</div>
-							<center><div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
-								<img src="images/team-member2.jpg" alt="">
-								<h4>Sairam</h4>
-								<h5>WEBSITE DESIGNER</h5>
-								<ul class="top-social-icons">
-									<li><a class="twitter" href="https://twitter.com/sai9827"> </a></li>
-									<li><a class="facebook" href="https://www.facebook.com/sairambond98"> </a></li>
-									<!--<li><a class="pin" href="#"> </a></li>-->
-									<div class="clear"> </div>
-								</ul>
-							</div></center>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-			<div id="contact" class="contact">
-				<div class="container">
-				<div class="contact-grids">
-					<div class="col-md-12">
-                        <center>
-						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
-                            <div class="contact-right wow fadeInRight" data-wow-delay="0.4s">
-							<h3>Contact Me</h3>
-							<label>Don't be shy, drop me a email and say hello! I am really waiting for someone to give me projects!! :)</label>
-							<div class="contact-left-grids">
-								<div class="col-md-6">
-									<div class="contact-left-grid">
-										<p><span class="c-mobi"> </span>+91 9003951807</p>
-										<p><span class="c-twitter"> </span>@sai9827</p>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="contact-right-grid">
-										<p><span class="c-msg"> </span>sairambond98@gmail.com</p>
-										<p><span class="c-face"> </span>facebook.com/sairambond98</p>
-									</div>
-								</div>	<br>	
-                                <h2 style="color: white">More contents yet to come on this website...</h2>
-                         <br /><br />
-                                </div>
-						</div>
-                            </div>
-                            </center>
-					</div>
-					
-					<div class="clearfix"> </div>
-				</div>
-				<div class="copy-right text-center">
-					<p>Powered by <a href="">GradleWorks</a></p>
-					<script type="text/javascript">
-									$(document).ready(function() {
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>
-			</div>
-			</div>
-</div>
-	</body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sairam Shanmuganathan - my simple portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Sairam's Portfolio">
+    <meta name="application-name" content="Sairam's Portfolio">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffb800">
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+          .then(function() {
+                console.log('Service Worker Registered');
+          });
+      }
+    </script>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Contents</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Domains worked</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Hi I'm<br> Sairam</h1>
+        <h3 class="mb-5">
+          <em>A simple Portfolio website to portray who I am....</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Blogging...</h2>
+            <p class="lead mb-5">I feel that the words written in my blog portrays exactly who I am so this will be the first section of my Portfolio<br><br>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://sairamshanmuganathan.wordpress.com/">View Blog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Hands on</h3>
+          <h2 class="mb-5">Domains I have worked</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Mobile App Development</strong>
+            </h4>
+            <p class="text-faded mb-0">Android</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Content Writing</strong>
+            </h4>
+            <p class="text-faded mb-0">Blogging,Magazines..</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Full Stack Web</strong>
+            </h4>
+            <p class="text-faded mb-0">Bootstrap
+              <i class="fas fa-heart"></i>php</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-mustache"></i>
+            </span>
+            <h4>
+              <strong>Graphic Designing</strong>
+            </h4>
+            <p class="text-faded mb-0">simple photoshop designs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Feel free to reach me!!</h2>
+        <a class="btn btn-primary btn-xl" href="resume.pdf">My Resume!</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+          <center><h2>Projects will be updated soon...!</h2></center>
+        <!--<div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Stationary</h2>
+                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Ice Cream</h2>
+                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Strawberries</h2>
+                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Workspace</h2>
+                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+        </div>-->
+      </div>
+    </section>
+<hr>
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+          <center><h2>Contact</h2></center>
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/sairambond98">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/sai9827">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/SairamShanmuganathan">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/sairam-shanmuganathan-909a15132/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Sairam's Portfolio 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>
